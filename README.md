@@ -6,8 +6,8 @@
 
 ## 실습 환경
 
-- Windows 11 + Docker Desktop
+- Windows 11 + PowerShell 7 + Docker Desktop(WSL2)
 
 ## 회고
 
-- Airflow 와 Spark 를 Docker Compose 로 띄워 보았다.
+- S3 → Spark → S3 흐름을 하나의 DAG 로 묶어 파이프라인을 완성했다.
