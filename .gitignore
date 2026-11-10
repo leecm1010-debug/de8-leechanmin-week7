@@ -1,0 +1,14 @@
+# 실행 산출물 — Airflow 가 계속 만들어 냅니다
+logs/
+output/
+__pycache__/
+*.pyc
+
+# 실습 데이터
+data/
+
+# 자격증명이 들어갈 수 있는 파일
+*.pem
+
+# airflow-init 이 자동 생성하는 설정 파일 (secret_key 등 자동 생성 비밀값이 들어 있음)
+config/airflow.cfg
