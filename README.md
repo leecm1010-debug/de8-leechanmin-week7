@@ -6,8 +6,8 @@
 
 ## 실습 환경
 
-- Windows 11 + PowerShell 7 + Docker Desktop(WSL2)
+- Windows 11 + PowerShell 7 + Docker Desktop(WSL2) · Airflow 3.3.0 · Spark 3.5.7(클러스터) / 4.3.0(pyspark)
 
 ## 회고
 
-- S3 → Spark → S3 흐름을 하나의 DAG 로 묶어 파이프라인을 완성했다.
+- XCom · 재시도 · 백필로 Airflow 의 실행 방식을 이해했고, S3 → Spark → S3 흐름을 하나의 DAG 로 묶어 파이프라인을 완성했다.
