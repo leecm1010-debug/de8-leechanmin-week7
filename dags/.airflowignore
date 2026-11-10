@@ -1,0 +1,2 @@
+# Spark 잡 스크립트는 DAG 파일이 아니므로 Airflow 가 DAG 로 읽지 않게 제외
+jobs/
